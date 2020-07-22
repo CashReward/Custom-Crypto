@@ -1,0 +1,96 @@
+.graph{
+    border: 3px solid red;
+    width: 400px;
+    height: 400px;
+    position: relative;
+
+    
+}
+
+.entete{
+    display: flex;
+    align-items: center;
+    flex-direction: row;    
+    justify-content: space-around;
+    
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2,p{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.crypto{
+    background-color:#a0a0a0;
+    display: grid;
+    grid-template-columns: 150px 200px 200px 200px 200px 200px ;
+    margin: 15px;
+    border-radius: 10px;
+    
+}
+.crypto p{
+    grid-row-start: 2;
+    padding-left: 15px;
+    
+}
+.jpy,.eur,.usd {
+    
+    grid-row-start: 4;     
+}
+
+.monnaie p{
+
+    display: table-cell;
+    height: 50px; 
+    vertical-align: middle;
+
+    
+
+   
+    
+
+}
+
+.monnaie{
+    display: grid;
+    grid-template-columns: 150px 200px 200px 200px 200px 200px 250px;
+   
+    
+}
+
+
+.action{
+    display: grid;
+    grid-template-columns: 400px 100px 400px;
+    align-items: baseline;
+    padding-left: 15px;
+
+    
+}
+
+.ajoutUSD{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ajoutEUR{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.ajoutJPY{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+i.fas{
+    padding-left: 5px;
+    width: 10px;
+    align-items: baseline;
+}
